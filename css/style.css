@@ -1,0 +1,300 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Grid Contenedor de Index */
+.gridContainerIndex {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "textoInicioGrid"
+        "footerGrid"
+}
+
+/* Grid Contenedor de Trabajos */
+.gridContainerTrabajos {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "trabajos"
+        "footerGrid";
+}
+
+/* Grid Contenedor de Productos */
+.gridContainerProductos {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "productos"
+        "fotosProductos fotosProductos fotosProductos fotosProductos"
+        "logoRepuestos"
+        "footerGrid";
+}
+
+/* Grid Contenedor de Galeria*/
+.gridContainerGaleria {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "texto-galeria"
+        "footerGrid";
+}
+
+/* Grid Contenedor de Contacto */
+.gridContainerContacto {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "contacto"
+        "footerGrid";
+}
+
+/* GRID de Menu + Logo */
+.gridMenu {
+    display: grid;
+    /* background: aqua; */
+
+}
+
+/* Logo */
+.logo img {
+    width: 150px;
+    display: flex;
+    margin: auto;
+    border-radius: 100%;
+}
+
+/* Incio Menu  */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 1.5rem;
+}
+
+.menu a:hover {
+    color: cornflowerblue;
+}
+
+/* Fin Menu */
+
+/* GRID textoInicioGrid */
+.textoInicioGrid {
+    display: grid;
+    padding-bottom: 10px;
+    /* background-color: blueviolet; */
+}
+
+
+/* Incio textoInicio */
+.textoInicio h1,
+h2 {
+    font-size: medium;
+    text-align: center;
+}
+
+/* Imagen lexusIs inicio */
+.lexusIs img {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    border-radius: 5%;
+}
+
+/* GRID Footer */
+
+.footerGrid {
+    display: grid;
+    border-top: solid black;
+    padding-top: 10px;
+    /* background-color: tomato; */
+}
+
+/* Footer */
+.piePagina footer {
+    text-align: center;
+}
+
+.piePagina img {
+    justify-content: space-around;
+    width: auto;
+    height: 50px;
+}
+
+
+/* Texto y video de galeria */
+.texto-galeria h1,
+h2 {
+    text-align: center;
+}
+
+.texto-galeria iframe {
+    display: flex;
+    margin: auto;
+}
+
+/* Grid Galeria */
+.gridTextoGaleria {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+/* Grid Contacto */
+.gridContacto {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+/* Texto y formato de Contacto */
+.contacto h1,
+form {
+    text-align: center;
+}
+
+/* Mapa de Contacto */
+.contacto iframe {
+    display: flex;
+    margin: auto;
+}
+
+/* Grid Trabajos */
+.gridFotosTrabajos {
+    padding-bottom: 10px;
+
+}
+
+/* Texto e imagen en Trabajos */
+.trabajos h1,
+p {
+    text-align: center;
+}
+
+.trabajos img {
+    width: 500px;
+    display: flex;
+    margin: auto;
+    border-radius: 5%;
+}
+
+/* Imagene de logos y productos en Productos */
+.logoRepuesto {
+    text-align: center;
+}
+
+.fotosProductos {
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+/* Menu Hamburguesa CSS */
+
+.menu-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.menu-icon,
+#check {
+    display: none;
+}
+
+
+/* Media querie - Responsive */
+
+
+@media screen and (max-width: 768px) {
+    /* body {
+        background-color: blue;
+    } */
+
+    /* Menu Hamburguesa */
+    .checkbtn {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .menu ul {
+        background: grey;
+        display: block;
+        position: fixed;
+        top: -10px;
+        left: -150%;
+        width: 100%;
+        height: 100%;
+        right: 0;
+    }
+
+    .menu ul li {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #check:checked~ul {
+        left: 0;
+        transition: all .25s;
+    }
+
+    /* Logo */
+    .logo img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Imagen Lexus IS */
+    .lexusIs img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Logo productos */
+    .logoRepuesto img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Imagenes de productos */
+    .productos img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Galeria Videos */
+    .texto-galeria iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contacto Mapa */
+    .contacto iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Fotos de trabajos */
+    .trabajos img {
+        width: 100%;
+        height: auto;
+    }
+}
