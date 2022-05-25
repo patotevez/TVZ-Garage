@@ -1,7 +1,6 @@
-
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(rgb(65, 65, 65),rgb(255, 255, 255));
+    background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255));
 }
 
 /* Grid Contenedor de Index */
@@ -22,13 +21,18 @@ body {
 
 /* Grid Contenedor de Productos */
 .gridContainerProductos {
-    background-color: white;
     display: grid;
     grid-template-areas: "logo menu"
         "productos"
         "fotosProductos fotosProductos fotosProductos fotosProductos"
         "logoRepuestos"
         "footerGrid";
+}
+
+/* Grid Header Productos */
+.gridHeaderproductos {
+    display: grid;
+    background-color: white;
 }
 
 /* Grid Contenedor de Galeria*/
@@ -50,9 +54,8 @@ body {
 /* GRID de Menu + Logo */
 .gridMenu {
     display: grid;
-    background-image: url(/img/FondoWeb1.png);
+    background-image: url(../img/FondoWeb1.png);
     background-position: center;
-    /* background: aqua; */
 
 }
 
@@ -78,6 +81,7 @@ a,
 li {
     text-decoration: none;
     list-style: none;
+    color: white;
 }
 
 .menu ul {
