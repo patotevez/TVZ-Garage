@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255));
+    background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255)); /* Añadi gradiente al fondo */
 }
 
 /* Grid Contenedor de Index */
@@ -32,7 +32,6 @@ body {
 /* Grid Header Productos */
 .gridHeaderproductos {
     display: grid;
-    background-color: white;
 }
 
 /* Grid Listas Productos */
@@ -47,6 +46,12 @@ body {
     color: black;
     text-decoration: none;
     list-style: none;
+}
+
+/* Grid Fotos de Productos */
+.gridFotosProductos {
+    display: grid;
+    background-color: white;
 }
 
 /* Grid Contenedor de Galeria*/
@@ -180,6 +185,13 @@ h2 {
 .gridContacto {
     display: grid;
     padding-bottom: 10px;
+}
+
+/* Animacion formulario de Contacto */
+
+.contacto input:focus {
+    transition: all 1s;
+    background-color: cornflowerblue;
 }
 
 /* Texto y formato de Contacto */
