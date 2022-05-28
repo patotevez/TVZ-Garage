@@ -35,6 +35,20 @@ body {
     background-color: white;
 }
 
+/* Grid Listas Productos */
+
+.listaProductos p {
+    display: grid;
+    text-align: left;
+}
+
+.listaProductos a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
 /* Grid Contenedor de Galeria*/
 .gridContainerGaleria {
     display: grid;
@@ -77,7 +91,7 @@ header {
     padding: .5rem 2rem;
 }
 
-a,
+.menu a,
 li {
     text-decoration: none;
     list-style: none;
