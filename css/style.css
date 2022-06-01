@@ -80,7 +80,7 @@ body {
 
 /* Logo */
 .logo img {
-    width: 150px;
+    width: 90px;
     display: flex;
     margin: auto;
     border-radius: 100%;
@@ -94,6 +94,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: .5rem 2rem;
+    border-bottom: solid black;
 }
 
 .menu a,
@@ -291,12 +292,6 @@ p {
     #check:checked~ul {
         left: 0;
         transition: all .25s;
-    }
-
-    /* Logo */
-    .logo img {
-        width: 100%;
-        height: 200px;
     }
 
     /* Imagen Lexus IS */
