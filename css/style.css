@@ -1,6 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255)); /* Añadi gradiente al fondo */
+    background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255));
+    /* Añadi gradiente al fondo */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: large;
 }
 
 /* Grid Contenedor de Index */
@@ -70,13 +79,20 @@ body {
         "footerGrid";
 }
 
-/* GRID de Menu + Logo */
-.gridMenu {
-    display: grid;
+/* Menu BOOTSTRAP */
+.navbar {
     background-image: url(../img/FondoWeb1.png);
     background-position: center;
-
 }
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: cornflowerblue;
+}
+
 
 /* Logo */
 .logo img {
@@ -86,62 +102,30 @@ body {
     border-radius: 100%;
 }
 
-/* Incio Menu  */
-
-header {
-    display: flex;
-    text-decoration: none;
-    justify-content: space-around;
-    align-items: center;
-    padding: .5rem 2rem;
-    border-bottom: solid black;
-}
-
-.menu a,
-li {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-}
-
-.menu ul {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-.menu li {
-    margin-right: 1.5rem;
-}
-
-.menu a:hover {
-    color: cornflowerblue;
-}
-
-/* Fin Menu */
-
 /* GRID textoInicioGrid */
 .textoInicioGrid {
     display: grid;
     padding-bottom: 10px;
-    /* background-color: blueviolet; */
 }
 
 
 /* Incio textoInicio */
 .textoInicio h1,
 h2 {
-    font-size: medium;
     text-align: center;
 }
 
-/* Imagen lexusIs inicio */
-.lexusIs img {
+/* Imagen Autos inicio */
+.autosIndex img {
     width: 450px;
     height: 250px;
     display: flex;
     margin: auto;
     border-radius: 5%;
+}
+
+.container h3 {
+    text-align: center;
 }
 
 /* GRID Footer */
@@ -259,43 +243,8 @@ p {
         background-color: blue;
     } */
 
-    /* Menu Hamburguesa */
-    .checkbtn {
-        display: block;
-    }
-
-    .menu-icon {
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-    }
-
-    .menu ul {
-        background: grey;
-        display: block;
-        position: fixed;
-        top: -10px;
-        left: -150%;
-        width: 100%;
-        height: 100%;
-        right: 0;
-    }
-
-    .menu ul li {
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-
-    #check:checked~ul {
-        left: 0;
-        transition: all .25s;
-    }
-
-    /* Imagen Lexus IS */
-    .lexusIs img {
+    /* Imagen Autos Index */
+    .autosIndex img {
         width: 100%;
         height: auto;
     }
@@ -328,5 +277,13 @@ p {
     .trabajos img {
         width: 100%;
         height: auto;
+    }
+
+    /* Textos */
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: medium
     }
 }
