@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    color: black;
     background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255));
     /* Añadi gradiente al fondo */
 }
@@ -60,7 +61,7 @@ h5 {
 /* Grid Fotos de Productos */
 .gridFotosProductos {
     display: grid;
-    background-color: white;
+    /* background-color: white; */
 }
 
 /* Grid Contenedor de Galeria*/
@@ -91,6 +92,14 @@ h5 {
 
 .nav-link:hover {
     color: cornflowerblue;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/icono-menu.png);
+}
+
+.navbar-toggler {
+    border: solid white
 }
 
 
@@ -203,16 +212,19 @@ p {
     text-align: center;
 }
 
-.trabajos img {
-    width: 500px;
-    display: flex;
-    margin: auto;
-    border-radius: 5%;
+.container img {
+    width: 450px;
+    height: 250px;
 }
 
 /* Imagene de logos y productos en Productos */
 .logoRepuesto {
+    padding-top: 1%;
     text-align: center;
+}
+
+.logoRepuesto img {
+    border-radius: 5%;
 }
 
 .fotosProductos {
@@ -220,20 +232,9 @@ p {
     justify-content: space-around;
 }
 
-
-/* Menu Hamburguesa CSS */
-
-.menu-icon img {
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
+.fotosProductos img {
+    border-radius: 5%;
 }
-
-.menu-icon,
-#check {
-    display: none;
-}
-
 
 /* Media querie - Responsive */
 
