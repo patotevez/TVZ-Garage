@@ -23,6 +23,7 @@ h5 {
 
 /* Grid Contenedor de Trabajos */
 .gridContainerTrabajos {
+    padding-bottom: 10px;
     display: grid;
     grid-template-areas: "logo menu"
         "trabajos"
