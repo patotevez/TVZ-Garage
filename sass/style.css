@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Aca van los SASS con sus respectivos import */
 /* Colores para la pagina */
 /* Color del body */
@@ -57,7 +58,9 @@ h5 {
 .gridContainerIndex {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "logo menu" "textoInicioGrid" "footerGrid";
+  grid-template-areas: "logo menu"
+    "textoInicioGrid"
+    "footerGrid";
 }
 
 /* GRID textoInicioGrid */
@@ -95,7 +98,7 @@ h2 {
 
 .piePagina img {
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: auto;
   height: 50px;
 }
@@ -107,4 +110,55 @@ h2 {
   padding-top: 10px;
   /* background-color: tomato; */
 }
+
+@media screen and (max-width: 768px) {
+
+  /* body {
+        background-color: blue;
+    } */
+  /* Imagen Autos Index */
+  .autosIndex img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Logo productos */
+  .logoRepuesto img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Imagenes de productos */
+  .productos img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Galeria Videos */
+  .texto-galeria iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Contacto Mapa */
+  .contacto iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Fotos de trabajos */
+  .trabajos img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Textos */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: medium;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
