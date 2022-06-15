@@ -1,291 +1,193 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255));
-    /* Añadi gradiente al fondo */
-}
+@charset "UTF-8";
+/* Misc */
+/* Media querie - Responsive */
+@media screen and (max-width: 768px) {
+  /* Imagen Autos Index */
+  .container .row .col .autosIndex img {
+    width: 100%;
+    height: auto; }
+  /* Logo productos */
+  .gridFotosProductos .logoRepuesto img {
+    width: 100%;
+    height: auto; }
+  .gridFotosProductos .fotosProductos img {
+    width: 100%;
+    height: auto; }
+  /* Imagenes de productos */
+  .productos img {
+    width: 100%;
+    height: auto; }
+  /* Galeria Videos */
+  .texto-galeria iframe {
+    width: 100%;
+    height: auto; }
+  /* Contacto Mapa */
+  .contacto iframe {
+    width: 100%;
+    height: auto; }
+  /* Fotos de trabajos */
+  .container .row .col img {
+    width: 100%;
+    height: auto; }
+  /* Textos */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: medium; } }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-size: large;
-}
-
-/* Grid Contenedor de Index */
-.gridContainerIndex {
-    display: grid;
-    grid-template-areas: "logo menu"
-        "textoInicioGrid"
-        "footerGrid"
-}
-
-/* Grid Contenedor de Trabajos */
-.gridContainerTrabajos {
-    padding-bottom: 10px;
-    display: grid;
-    grid-template-areas: "logo menu"
-        "trabajos"
-        "footerGrid";
-}
-
-/* Grid Contenedor de Productos */
-.gridContainerProductos {
-    display: grid;
-    grid-template-areas: "logo menu"
-        "productos"
-        "fotosProductos fotosProductos fotosProductos fotosProductos"
-        "logoRepuestos"
-        "footerGrid";
-}
-
-/* Grid Header Productos */
-.gridHeaderproductos {
-    display: grid;
-}
-
-/* Grid Listas Productos */
-
-.listaProductos p {
-    display: grid;
-    text-align: left;
-}
-
-.listaProductos a {
-    display: flex;
-    color: black;
-    text-decoration: none;
-    list-style: none;
-}
-
-/* Grid Fotos de Productos */
-.gridFotosProductos {
-    display: grid;
-    /* background-color: white; */
-}
-
-/* Grid Contenedor de Galeria*/
-.gridContainerGaleria {
-    display: grid;
-    grid-template-areas: "logo menu"
-        "texto-galeria"
-        "footerGrid";
-}
-
+/* Colores para la pagina */
+/* Color del body */
+/* Color Menu Nav */
+/* Pages */
 /* Grid Contenedor de Contacto */
 .gridContainerContacto {
-    display: grid;
-    grid-template-areas: "logo menu"
-        "contacto"
-        "footerGrid";
-}
-
-/* Menu BOOTSTRAP */
-.navbar {
-    background-image: url(../img/FondoWeb1.png);
-    background-position: center;
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    color: cornflowerblue;
-}
-
-.navbar-toggler-icon {
-    background-image: url(../img/icono-menu.png);
-}
-
-.navbar-toggler {
-    border: solid white
-}
-
-
-/* Logo */
-.logo img {
-    width: 90px;
-    display: flex;
-    margin: auto;
-    border-radius: 100%;
-}
-
-/* GRID textoInicioGrid */
-.textoInicioGrid {
-    display: grid;
-    padding-bottom: 10px;
-}
-
-
-/* Incio textoInicio */
-.textoInicio h1,
-h2 {
-    text-align: center;
-}
-
-/* Imagen Autos inicio */
-.autosIndex img {
-    width: 450px;
-    height: 250px;
-    display: flex;
-    margin: auto;
-    border-radius: 5%;
-}
-
-.container h3 {
-    text-align: center;
-}
-
-/* GRID Footer */
-
-.footerGrid {
-    display: grid;
-    border-top: solid black;
-    padding-top: 10px;
-    /* background-color: tomato; */
-}
-
-/* Footer */
-.piePagina footer {
-    text-align: center;
-}
-
-.piePagina img {
-    justify-content: space-around;
-    width: auto;
-    height: 50px;
-}
-
-
-/* Texto y video de galeria */
-.texto-galeria h1,
-h2 {
-    text-align: center;
-}
-
-.texto-galeria iframe {
-    display: flex;
-    margin: auto;
-}
-
-/* Grid Galeria */
-.gridTextoGaleria {
-    display: grid;
-    padding-bottom: 10px;
-}
+  display: grid;
+  grid-template-areas: "logo menu" "contacto" "footerGrid"; }
 
 /* Grid Contacto */
 .gridContacto {
-    display: grid;
-    padding-bottom: 10px;
-}
+  display: grid;
+  padding-bottom: 10px; }
 
 /* Animacion formulario de Contacto */
-
 .contacto input:focus {
-    transition: all 1s;
-    background-color: cornflowerblue;
-}
+  transition: all 1s;
+  background-color: cornflowerblue; }
 
 /* Texto y formato de Contacto */
 .contacto h1,
 form {
-    text-align: center;
-}
+  text-align: center; }
 
 /* Mapa de Contacto */
 .contacto iframe {
-    display: flex;
-    margin: auto;
-}
+  display: flex;
+  margin: auto; }
+
+/* Grid Contenedor de Galeria*/
+.gridContainerGaleria {
+  display: grid;
+  grid-template-areas: "logo menu" "texto-galeria" "footerGrid"; }
+
+/* Texto y video de galeria */
+.texto-galeria h1,
+h2 {
+  text-align: center; }
+
+.texto-galeria iframe {
+  display: flex;
+  margin: auto; }
+
+/* Grid Galeria */
+.gridTextoGaleria {
+  display: grid;
+  padding-bottom: 10px; }
+
+/* Grid Contenedor de Index */
+.gridContainerIndex {
+  display: grid;
+  grid-template-areas: "logo menu" "textoInicioGrid" "footerGrid"; }
+
+/* GRID textoInicioGrid */
+.textoInicioGrid {
+  display: grid;
+  padding-bottom: 10px; }
+
+/* Incio textoInicio */
+.textoInicio h1,
+h2 {
+  text-align: center; }
+
+/* Imagen Autos inicio */
+.autosIndex img {
+  width: 450px;
+  height: 250px;
+  display: flex;
+  margin: auto;
+  border-radius: 5%; }
+
+.container h3 {
+  text-align: center; }
+
+/* Imagenes de logos y productos en Productos */
+.logoRepuesto {
+  padding-top: 1%;
+  text-align: center; }
+
+.logoRepuesto img {
+  border-radius: 5%; }
+
+.fotosProductos {
+  text-align: center;
+  justify-content: space-around; }
+
+.fotosProductos img {
+  border-radius: 5%; }
 
 /* Grid Trabajos */
 .gridFotosTrabajos {
-    padding-bottom: 10px;
-
-}
+  padding-bottom: 10px; }
 
 /* Texto e imagen en Trabajos */
 .trabajos h1,
 p {
-    text-align: center;
-}
+  text-align: center; }
 
 .container img {
-    width: 450px;
-    height: 250px;
-}
+  width: 450px;
+  height: 250px; }
 
-/* Imagene de logos y productos en Productos */
-.logoRepuesto {
-    padding-top: 1%;
-    text-align: center;
-}
+/* Partials */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  background: linear-gradient(#414141, white);
+  /* Añadi gradiente al fondo */ }
 
-.logoRepuesto img {
-    border-radius: 5%;
-}
+h1 {
+  font-size: large; }
 
-.fotosProductos {
-    text-align: center;
-    justify-content: space-around;
-}
+h2 {
+  font-size: large; }
 
-.fotosProductos img {
-    border-radius: 5%;
-}
+h3 {
+  font-size: large; }
 
-/* Media querie - Responsive */
+h4 {
+  font-size: large; }
 
+h5 {
+  font-size: large; }
 
-@media screen and (max-width: 768px) {
-    /* body {
-        background-color: blue;
-    } */
+/* Footer */
+.piePagina footer {
+  text-align: center; }
 
-    /* Imagen Autos Index */
-    .autosIndex img {
-        width: 100%;
-        height: auto;
-    }
+.piePagina img {
+  justify-content: space-around;
+  width: auto;
+  height: 50px; }
 
-    /* Logo productos */
-    .logoRepuesto img {
-        width: 100%;
-        height: auto;
-    }
+.footerGrid {
+  display: grid;
+  border-top: solid black;
+  padding-top: 10px;
+  /* background-color: tomato; */ }
 
-    /* Imagenes de productos */
-    .productos img {
-        width: 100%;
-        height: auto;
-    }
+/* Menu BOOTSTRAP */
+.navbar {
+  background-image: url(../img/FondoWeb1.png);
+  background-position: center; }
 
-    /* Galeria Videos */
-    .texto-galeria iframe {
-        width: 100%;
-        height: auto;
-    }
+.nav-link {
+  color: white; }
 
-    /* Contacto Mapa */
-    .contacto iframe {
-        width: 100%;
-        height: auto;
-    }
+.nav-link:hover {
+  color: cornflowerblue; }
 
-    /* Fotos de trabajos */
-    .trabajos img {
-        width: 100%;
-        height: auto;
-    }
+.navbar-toggler-icon {
+  background-image: url(../img/icono-menu.png); }
 
-    /* Textos */
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-size: medium
-    }
-}
+.navbar-toggler {
+  border: solid white; }

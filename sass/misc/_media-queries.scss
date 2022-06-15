@@ -1,0 +1,80 @@
+/* Media querie - Responsive */
+
+
+@media screen and (max-width: 768px) {
+
+    /* Imagen Autos Index */
+
+    .container {
+        .row {
+            .col {
+                .autosIndex {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* Logo productos */
+    .gridFotosProductos {
+        .logoRepuesto {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    .gridFotosProductos {
+        .fotosProductos {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    /* Imagenes de productos */
+    .productos img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Galeria Videos */
+    .texto-galeria iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contacto Mapa */
+    .contacto iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Fotos de trabajos */
+
+    .container {
+        .row {
+            .col {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+    /* Textos */
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: medium
+    }
+}

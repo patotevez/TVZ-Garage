@@ -1,0 +1,24 @@
+/* Grid Contenedor de Galeria*/
+.gridContainerGaleria {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "texto-galeria"
+        "footerGrid";
+}
+
+/* Texto y video de galeria */
+.texto-galeria h1,
+h2 {
+    text-align: center;
+}
+
+.texto-galeria iframe {
+    display: flex;
+    margin: auto;
+}
+
+/* Grid Galeria */
+.gridTextoGaleria {
+    display: grid;
+    padding-bottom: 10px;
+}

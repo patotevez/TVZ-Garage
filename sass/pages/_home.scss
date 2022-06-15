@@ -1,0 +1,36 @@
+/* Grid Contenedor de Index */
+.gridContainerIndex {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "textoInicioGrid"
+        "footerGrid"
+}
+
+/* GRID textoInicioGrid */
+.textoInicioGrid {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+/* Incio textoInicio */
+.textoInicio h1,
+h2 {
+    text-align: center;
+}
+
+/* Imagen Autos inicio */
+.autosIndex {
+    img {
+        width: 450px;
+        height: 250px;
+        display: flex;
+        margin: auto;
+        border-radius: 5%;
+    }
+}
+
+.container {
+    h3 {
+        text-align: center;
+    }
+}

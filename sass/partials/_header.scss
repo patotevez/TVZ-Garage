@@ -1,0 +1,21 @@
+/* Menu BOOTSTRAP */
+.navbar {
+    background-image: url(../img/FondoWeb1.png);
+    background-position: center;
+}
+
+.nav-link {
+    color: $colorBlanco;
+}
+
+.nav-link:hover {
+    color: $colorFlowerBlue;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../img/icono-menu.png);
+}
+
+.navbar-toggler {
+    border: solid $colorBlanco
+}

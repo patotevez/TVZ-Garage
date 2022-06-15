@@ -1,0 +1,21 @@
+/* Footer */
+.piePagina {
+
+    footer {
+        text-align: center;
+    }
+
+    img {
+        justify-content: space-around;
+        width: auto;
+        height: 50px;
+    }
+}
+
+
+.footerGrid {
+    display: grid;
+    border-top: solid $colorNegro;
+    padding-top: 10px;
+    /* background-color: tomato; */
+}

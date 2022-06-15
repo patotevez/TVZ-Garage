@@ -1,0 +1,32 @@
+/* Grid Contenedor de Contacto */
+.gridContainerContacto {
+    display: grid;
+    grid-template-areas: "logo menu"
+        "contacto"
+        "footerGrid";
+}
+
+/* Grid Contacto */
+.gridContacto {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+/* Animacion formulario de Contacto */
+
+.contacto input:focus {
+    transition: all 1s;
+    background-color: cornflowerblue;
+}
+
+/* Texto y formato de Contacto */
+.contacto h1,
+form {
+    text-align: center;
+}
+
+/* Mapa de Contacto */
+.contacto iframe {
+    display: flex;
+    margin: auto;
+}
