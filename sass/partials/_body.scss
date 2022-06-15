@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    color: $colorNegro;
+    color: map-get($map: $paletaColores, $key: 'colorSecundario');
     background: linear-gradient($backgroundBody);
     /* Añadi gradiente al fondo */
 }

@@ -10,7 +10,10 @@ p {
     text-align: center;
 }
 
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
 .container img {
-    width: 450px;
-    height: 250px;
+    @include sizes (450px,250px);
 }

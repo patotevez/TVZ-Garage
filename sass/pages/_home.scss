@@ -19,10 +19,14 @@ h2 {
 }
 
 /* Imagen Autos inicio */
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 .autosIndex {
     img {
-        width: 450px;
-        height: 250px;
+        @include sizes(450px,250px);
         display: flex;
         margin: auto;
         border-radius: 5%;

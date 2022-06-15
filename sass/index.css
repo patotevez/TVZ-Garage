@@ -5,37 +5,52 @@
   /* Imagen Autos Index */
   .container .row .col .autosIndex img {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   /* Logo productos */
   .gridFotosProductos .logoRepuesto img {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   .gridFotosProductos .fotosProductos img {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   /* Imagenes de productos */
   .productos img {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   /* Galeria Videos */
   .texto-galeria iframe {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   /* Contacto Mapa */
   .contacto iframe {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   /* Fotos de trabajos */
   .container .row .col img {
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   /* Textos */
   h1,
-  h2,
-  h3,
-  h4 {
-    font-size: medium; } }
-
+h2,
+h3,
+h4 {
+    font-size: medium;
+  }
+}
 /* Colores para la pagina */
 /* Color del body */
 /* Color Menu Nav */
@@ -43,61 +58,73 @@
 /* Grid Contenedor de Contacto */
 .gridContainerContacto {
   display: grid;
-  grid-template-areas: "logo menu" "contacto" "footerGrid"; }
+  grid-template-areas: "logo menu" "contacto" "footerGrid";
+}
 
 /* Grid Contacto */
 .gridContacto {
   display: grid;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 /* Animacion formulario de Contacto */
 .contacto input:focus {
   transition: all 1s;
-  background-color: cornflowerblue; }
+  background-color: cornflowerblue;
+}
 
 /* Texto y formato de Contacto */
 .contacto h1,
 form {
-  text-align: center; }
+  text-align: center;
+}
 
 /* Mapa de Contacto */
 .contacto iframe {
   display: flex;
-  margin: auto; }
+  margin: auto;
+}
 
 /* Grid Contenedor de Galeria*/
 .gridContainerGaleria {
   display: grid;
-  grid-template-areas: "logo menu" "texto-galeria" "footerGrid"; }
+  grid-template-areas: "logo menu" "texto-galeria" "footerGrid";
+}
 
 /* Texto y video de galeria */
 .texto-galeria h1,
 h2 {
-  text-align: center; }
+  text-align: center;
+}
 
 .texto-galeria iframe {
   display: flex;
-  margin: auto; }
+  margin: auto;
+}
 
 /* Grid Galeria */
 .gridTextoGaleria {
   display: grid;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 /* Grid Contenedor de Index */
 .gridContainerIndex {
   display: grid;
-  grid-template-areas: "logo menu" "textoInicioGrid" "footerGrid"; }
+  grid-template-areas: "logo menu" "textoInicioGrid" "footerGrid";
+}
 
 /* GRID textoInicioGrid */
 .textoInicioGrid {
   display: grid;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 /* Incio textoInicio */
 .textoInicio h1,
 h2 {
-  text-align: center; }
+  text-align: center;
+}
 
 /* Imagen Autos inicio */
 .autosIndex img {
@@ -105,92 +132,115 @@ h2 {
   height: 250px;
   display: flex;
   margin: auto;
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 .container h3 {
-  text-align: center; }
+  text-align: center;
+}
 
 /* Imagenes de logos y productos en Productos */
 .logoRepuesto {
   padding-top: 1%;
-  text-align: center; }
+  text-align: center;
+}
 
 .logoRepuesto img {
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 .fotosProductos {
   text-align: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .fotosProductos img {
-  border-radius: 5%; }
+  border-radius: 5%;
+}
 
 /* Grid Trabajos */
 .gridFotosTrabajos {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 /* Texto e imagen en Trabajos */
 .trabajos h1,
 p {
-  text-align: center; }
+  text-align: center;
+}
 
 .container img {
   width: 450px;
-  height: 250px; }
+  height: 250px;
+}
 
 /* Partials */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
-  background: linear-gradient(#414141, white);
-  /* Añadi gradiente al fondo */ }
+  background: linear-gradient(rgb(65, 65, 65), rgb(255, 255, 255));
+  /* Añadi gradiente al fondo */
+}
 
 h1 {
-  font-size: large; }
+  font-size: large;
+}
 
 h2 {
-  font-size: large; }
+  font-size: large;
+}
 
 h3 {
-  font-size: large; }
+  font-size: large;
+}
 
 h4 {
-  font-size: large; }
+  font-size: large;
+}
 
 h5 {
-  font-size: large; }
+  font-size: large;
+}
 
 /* Footer */
 .displayGrid, .footerGrid {
   display: grid;
   border-top: solid black;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .piePagina footer {
-  text-align: center; }
-
+  text-align: center;
+}
 .piePagina img {
   justify-content: space-around;
   width: auto;
-  height: 50px; }
+  height: 50px;
+}
 
 /* SE AGREGO EXTEND */
 .footerGrid {
-  /* background-color: tomato; */ }
+  /* background-color: tomato; */
+}
 
 /* Menu BOOTSTRAP */
 .navbar {
   background-image: url(../img/FondoWeb1.png);
-  background-position: center; }
+  background-position: center;
+}
 
 .nav-link {
-  color: white; }
+  color: white;
+}
 
 .nav-link:hover {
-  color: cornflowerblue; }
+  color: cornflowerblue;
+}
 
 .navbar-toggler-icon {
-  background-image: url(../img/icono-menu.png); }
+  background-image: url(../img/icono-menu.png);
+}
 
 .navbar-toggler {
-  border: solid white; }
+  border: solid white;
+}/*# sourceMappingURL=index.css.map */

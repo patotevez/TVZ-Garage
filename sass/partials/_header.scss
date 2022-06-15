@@ -5,11 +5,11 @@
 }
 
 .nav-link {
-    color: $colorBlanco;
+    color: map-get($map: $paletaColores, $key: 'colorPrimario');
 }
 
 .nav-link:hover {
-    color: $colorFlowerBlue;
+    color: map-get($map: $paletaColores, $key: 'colorTerciario');
 }
 
 .navbar-toggler-icon {

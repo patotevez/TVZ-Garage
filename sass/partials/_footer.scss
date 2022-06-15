@@ -1,4 +1,11 @@
 /* Footer */
+
+.displayGrid {
+    display: grid;
+    border-top: solid $colorNegro;
+    padding-top: 10px;
+}
+
 .piePagina {
 
     footer {
@@ -12,10 +19,9 @@
     }
 }
 
+/* SE AGREGO EXTEND */
 
 .footerGrid {
-    display: grid;
-    border-top: solid $colorNegro;
-    padding-top: 10px;
+    @extend .displayGrid;
     /* background-color: tomato; */
 }
