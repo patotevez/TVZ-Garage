@@ -59,6 +59,9 @@
 .contacto h1,
 form {
   text-align: center; }
+  .contacto h1 .div input,
+  form .div input {
+    text-align: center; }
 
 /* Mapa de Contacto */
 .contacto iframe {
@@ -194,3 +197,9 @@ h5 {
 
 .navbar-toggler {
   border: solid white; }
+
+.logo {
+  height: 60px;
+  width: auto;
+  border-radius: 35%;
+  padding: 5px; }
