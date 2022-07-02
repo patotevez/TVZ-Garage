@@ -76,11 +76,14 @@ form {
 /* Texto y video de galeria */
 .texto-galeria h1,
 h2 {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 20px; }
 
 .texto-galeria iframe {
   display: flex;
-  margin: auto; }
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 /* Grid Galeria */
 .gridTextoGaleria {
@@ -113,20 +116,34 @@ h2 {
 .container h3 {
   text-align: center; }
 
+.fondoTVZ img {
+  width: 100%; }
+
 /* Imagenes de logos y productos en Productos */
 .logoRepuesto {
   padding-top: 1%;
   text-align: center; }
 
 .logoRepuesto img {
-  border-radius: 5%; }
+  padding-bottom: 15px; }
 
 .fotosProductos {
   text-align: center;
   justify-content: space-around; }
 
 .fotosProductos img {
-  border-radius: 5%; }
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.productos h1 {
+  text-align: center; }
+
+.listaProductos h3 {
+  text-align: left; }
+
+.listaProductos ol {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 /* Grid Trabajos */
 .gridFotosTrabajos {
@@ -141,6 +158,9 @@ p {
   width: 450px;
   height: 250px; }
 
+.container .row {
+  text-align: center; }
+
 /* Partials */
 body {
   font-family: 'Montserrat', sans-serif;
@@ -149,7 +169,9 @@ body {
   /* Añadi gradiente al fondo */ }
 
 h1 {
-  font-size: large; }
+  font-size: x-large;
+  padding-top: 15px;
+  font-weight: bold; }
 
 h2 {
   font-size: large; }
@@ -161,6 +183,9 @@ h4 {
   font-size: large; }
 
 h5 {
+  font-size: large; }
+
+p {
   font-size: large; }
 
 /* Footer */
@@ -178,9 +203,6 @@ h5 {
   height: 50px; }
 
 /* SE AGREGO EXTEND */
-.footerGrid {
-  /* background-color: tomato; */ }
-
 /* Menu BOOTSTRAP */
 .navbar {
   background-image: url(../img/FondoWeb1.png);

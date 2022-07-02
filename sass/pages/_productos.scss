@@ -5,7 +5,7 @@
 }
 
 .logoRepuesto img {
-    border-radius: 5%;
+    padding-bottom: 15px;
 }
 
 .fotosProductos {
@@ -14,5 +14,20 @@
 }
 
 .fotosProductos img {
-    border-radius: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.productos h1 {
+    text-align: center;
+}
+
+.listaProductos {
+    h3 {
+    text-align: left;
+    }
+    ol {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }

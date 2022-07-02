@@ -6,7 +6,9 @@ body {
 }
 
 h1 {
-    font-size: large;
+    font-size: x-large;
+    padding-top: 15px;
+    font-weight: bold;
 }
 
 h2 {
@@ -22,5 +24,9 @@ h4 {
 }
 
 h5 {
+    font-size: large;
+}
+
+p {
     font-size: large;
 }

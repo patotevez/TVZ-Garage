@@ -17,3 +17,7 @@ p {
 .container img {
     @include sizes (450px,250px);
 }
+
+.container .row {
+    text-align: center;
+}
